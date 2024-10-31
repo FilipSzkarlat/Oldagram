@@ -13,6 +13,10 @@ body {
   background-color: #ededed;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -46,6 +50,17 @@ body {
   width: 34px;
   height: 34px;
   border-radius: 50%;
+}
+
+header .avatar:hover,
+header .avatar:active {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.post:hover,
+.post:active {
+  cursor: pointer;
 }
 
 /* SECTION */
